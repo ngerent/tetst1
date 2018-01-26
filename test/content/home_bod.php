@@ -2,16 +2,18 @@
 		<form>
 		  <div class="form-group">
 		    <label for="bod_name">Name </label>
-		    <input type="email" class="form-control" id="bod_name" aria-describedby="emailHelp" placeholder="Enter Name">
+		    <input type="text" class="form-control" id="bod_name" aria-describedby="emailHelp" placeholder="Enter Name">
+		  </div>
+		  <div class="form-group">
+		  	<label for="position">Position</label>
+		  	<input type="" name="position" class="form-control" placeholder="pposition">
+
 		  </div>
 		  <div class="form-group">
 		    <label for="bod_quote">Quote</label>
-		    <textarea>Next, start a free trial!</textarea>
+		    <textarea id="bod_quote"> </textarea>
 		  </div>
-		  <div class="form-check">
-		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-		    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-		  </div>
+		  
 		  <button type="submit" class="btn btn-primary">Submit</button>
 	</form>
 </fieldset>

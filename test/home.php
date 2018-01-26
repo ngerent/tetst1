@@ -4,6 +4,7 @@
 	<head>
 		<?php
 		require_once("content/home_head.php");
+		require_once("connect.php");
 		?>
 	</head>
 
